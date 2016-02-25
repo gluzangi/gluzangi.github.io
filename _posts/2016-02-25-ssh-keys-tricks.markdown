@@ -3,7 +3,6 @@ published: true
 title: SSH Keys Tricks
 layout: post
 tags: [SSH, SSH, Identity, Keys, SSHFS]
-categories: [Security, SSH, SSH, Keys]
 ---
 SSH with identity key:
 {% hightlight ruby%}
