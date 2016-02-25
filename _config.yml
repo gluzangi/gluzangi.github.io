@@ -1,0 +1,8 @@
+excerpt_separator: ""
+pygments: true
+markdown: kramdown
+url: http://gluzangi.github.io
+title: gluzangi
+tagline: techvent
+description: Trick and Tips on tech-adventures
+paginate: 5
