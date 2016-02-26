@@ -6,7 +6,7 @@ layout: post
 SSH With Identity Key:
 
 {% highlight ruby %}
-sudo ssh -i /home/geraldl/.ssh/id_rsa user@domain.com
+sudo ssh -i /home/myself/.ssh/id_rsa user@domain.com
 {% endhighlight %}
 
 Appending File Using SSH:
