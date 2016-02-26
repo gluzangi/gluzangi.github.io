@@ -12,8 +12,8 @@ sudo ssh -i /home/geraldl/.ssh/id_rsa ec2-user@ec2-54-226-xx-xx.compute-1.amazon
 Appending File Using SSH:
 
 {% highlight ruby %}
-cat id_rsa.pub | ssh ec2-user@host.domain.com 'cat >> /home/ec2-user/.ssh/authorized_keys'
-cat ~/.ssh/id_dsa.pub | ssh ec2-user@host.domain.com 'mkdir .ssh; cat >> .ssh/authorized_keys'
+cat id_rsa.pub | ssh user@host.domain.com 'cat >> /home/user/.ssh/authorized_keys'
+cat ~/.ssh/id_dsa.pub | ssh user@host.domain.com 'mkdir .ssh; cat >> .ssh/authorized_keys'
 cat ~/.ssh/id_rsa.pub | ssh user@domain.com 'cat >> .ssh/authorized_keys'
 {% endhighlight %}
 
