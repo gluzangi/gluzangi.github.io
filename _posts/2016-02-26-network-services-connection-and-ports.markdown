@@ -8,7 +8,7 @@ NETCAT:
 - Test a listening port
 
 {% highlight ruby %}
-nc -vz mail.capcomcanada.com 587
+nc -vz mail.domain.com 587
 {% endhighlight %}
 
 
