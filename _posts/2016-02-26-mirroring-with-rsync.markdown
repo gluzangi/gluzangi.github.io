@@ -24,7 +24,7 @@ rsync -Phavzn --stats --exclude='*/snapshots/' -e "ssh -i /root/.ssh/server.pem"
 rsync -Phavzn --stats -e "ssh -i /root/.ssh/server.pem" ./*Smiles/snapshots/  ec2-user@ec2-23-22-xxx-xxx.compute-1.amazonaws.com:/home/ec2-user/
 {% endhighlight %}
 
-Bandwith optimization:
+Bandwidth optimization:
 {% highlight ruby %}
 rsync -Phavzn -X --compress-level=9 --bwlimit=0 --stats --log-file="/vol/rsync_logs/rsync.log.$(date +%Y%m%d%H%m%S)" -e "ssh -c blowfish -i /root/.ssh/id_rsa" /vol/ admin@host.domain.com:/share/vol/
 {% endhighlight %}
