@@ -1,6 +1,6 @@
 ---
 published: true
-title: Find
+title: Find command tricks
 layout: post
 ---
 Finding Empty Directories:
