@@ -40,7 +40,7 @@ netstat -ul
 
 TRACEROUTE:
 {% highlight ruby %}
-traceroute -T mail.capcomcanada.com -p 25
+traceroute -T mail.domain.com -p 25
 {% endhighlight %}
 
 NMAP:
