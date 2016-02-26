@@ -1,6 +1,6 @@
 ---
 published: true
-title: Network Services Connection And Ports
+title: Network Services And Ports
 layout: post
 ---
 NETCAT:
@@ -39,6 +39,7 @@ netstat -ul
 {% endhighlight %}
 
 TRACEROUTE:
+
 {% highlight ruby %}
 traceroute -T mail.domain.com -p 25
 {% endhighlight %}
