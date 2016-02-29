@@ -29,4 +29,5 @@ SSHFS With Identity Key:
 
 {% highlight ruby %}
 sshfs -o idmap=user -o ssh_command="ssh -i /root/server.pem"  user@domain.com:/media/vol /mnt/partition
+sshfs -o sshfs_sync -o idmap=user apache@domain.org:/var/www/srv DevOps/ 
 {% endhighlight %}
