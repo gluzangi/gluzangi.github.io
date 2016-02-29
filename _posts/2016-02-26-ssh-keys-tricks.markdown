@@ -9,6 +9,13 @@ SSH With Identity Key:
 sudo ssh -i /home/myself/.ssh/id_rsa user@domain.com
 {% endhighlight %}
 
+SSH Agent Forwarding:
+
+{% highlight ruby %}
+eval `ssh-agent`
+sudo ssh -A user@domain.com
+{% endhighlight %}
+
 Appending File Using SSH:
 
 {% highlight ruby %}
